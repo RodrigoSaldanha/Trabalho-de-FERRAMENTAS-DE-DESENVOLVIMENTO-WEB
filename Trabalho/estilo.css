@@ -1,0 +1,106 @@
+html {
+    font-family: Verdana, sans-serif;
+    color: green;
+    background-color: rgb(237, 212, 179);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid: green;
+    background-color: goldenrod;
+}
+
+.tab button {
+    background-color: inherit;
+    text-transform: uppercase;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover, .tab button.active {
+    background-color:green;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.tab button:hover {
+    font-style: italic;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+header>h1 {
+    line-height: 0;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+header>h2 {
+    line-height: 1;
+    font-size: 2em;
+    font-style: italic;
+    font-variant-caps: all-small-caps;
+}
+
+article {
+    margin: 2rem;
+}
+
+main>article>section>h3,
+h4 {
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main>article>section>h4 {
+    line-height: 0;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+.link {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: solid !important;
+}
+
+form {
+    color: green;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: goldenrod;
+}
+
+form>div>input,
+textarea {
+    width: 100%;
+}
+
+form>div>button {
+    margin-top: 10px;
+    background-color: green;
+    border: 0;
+    border-radius: 8px;
+    color: goldenrod;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
